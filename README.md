@@ -13,3 +13,10 @@ This project demonstrates an end-to-end data pipeline to predict customer attrit
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
+3. Execute the analysis pipeline:
+   ```bash
+   python churn_analysis.py
+   ```
+## Results & Business Impact
+The model highlights that Support Tickets and Monthly Charges are the strongest predictors of a customer leaving. Recommendations include offering proactive discounts to customers with high recent ticket volumes.
